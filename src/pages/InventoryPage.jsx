@@ -50,7 +50,9 @@ export default function InventoryPage() {
       <div className="page-header">
         <div>
           <div className="page-title">Stock Register</div>
-          <div className="page-sub">Cement Factory · Inventory Ledger</div>
+          <div className="page-sub">
+            Value Cement Industries · Inventory Ledger
+          </div>
         </div>
         <button className="btn btn-accent" onClick={() => setShowModal(true)}>
           + Add item
